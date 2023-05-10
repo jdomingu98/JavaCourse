@@ -45,7 +45,7 @@ public class Main {
 			contenidoJenkinsFile += "		stage(\"Ciudad " + i + "\"){\n"
 					+ "			steps{\n"
 					+ "				println \"" + p.ciudad + ": " + p.calcularPoblacionFinal(p.poblacionParcial) + "\"\n"
-					+ "			}\n";
+					+ "			}\n		}\n";
 			i++;
 		}
 		contenidoJenkinsFile += "	}\n}";
