@@ -1,0 +1,12 @@
+Nombre: Gustavo
+Apellido: Vargas
+Edad: 30
+Nombre: Gustavo
+Apellido: Vargas
+Edad: 30
+Nombre: María
+Apellido: Santos
+Edad: 25
+Nombre: María
+Apellido: Santos
+Edad: 25

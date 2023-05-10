@@ -10,7 +10,7 @@
  * Beneficios de las clases privadas:
  * Encapsulacion de fincionalidad: Las clase privadas utilizan el concepto
  * de encapsualcion de funcionalidades dentro de una clase, lo que permite
- * oculta y protegida del acceso ÇEXTERNO. Esto ayuda a prevenir cambios
+ * oculta y protegida del acceso EXTERNO. Esto ayuda a prevenir cambios
  * en el estado interno de la case y garantiza que la clase funcione  ---
  * Abstraccion: Las clases priivadas se utilizan para proporcionar una capa de absraccion
  * Herencia:

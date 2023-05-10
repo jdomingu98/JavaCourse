@@ -1,0 +1,37 @@
+def numero1 = 10
+def numero2 = 100
+pipeline
+{
+    agent any
+    stages
+    {
+        stage("Sumar")
+        {
+            steps
+            {
+                script
+                {
+                nombre = "Roberto"
+                println nombre    
+                }
+                
+            }
+        }
+        stage("Apellido")
+        {
+            steps
+            {
+                println apellido
+            }
+        }
+        
+        stage("Nombre y apelldo")
+        {
+            steps
+            {
+                println nombre + " " + apellido
+                
+            }
+        }
+    }
+}

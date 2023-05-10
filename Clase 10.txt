@@ -1,0 +1,35 @@
+-- SQL: Structured Query Language (Lenguaje Estructurado de Consultas)
+varchar (Variable Character)
+
+-- Borrar tabla
+DROP TABLE Usuarios
+
+-- Crear tabla
+CREATE TABLE Usuarios
+(    
+    Nombre        varchar (100), -- varchar sin longitud es por defecto longitud 1
+    Apellido    varchar (100),
+    Ciudad        varchar (200),
+    NOMBRE_USUARIO varchar (150),
+    Email        varchar (200)
+)
+-- Para actualizar el esquema de la tabla, hay que eliminarla y volverla a crear
+
+-- Muestrame toda la informacion de la tabla de usuarios
+SELECT * FROM Usuarios
+
+
+-- Insertar datos en la tabla Usuarios
+INSERT INTO Usuarios VALUES ('G', 'V', 'B', 'g','g')
+INSERT INTO Usuarios VALUES ('Gustavo', 'Vargas', 'Barcelona', 'gustavovargas','gustavo@grupoloyal.com')
+INSERT INTO Usuarios VALUES ('Monica', 'Muñoz', 'Barcelona', 'monicamuñoz','mamuñoz@grupoloyal.com')
+INSERT INTO Usuarios VALUES ('Pablo', 'Moyano', 'Buenos Aires', 'pablomoyano','pablomoyano@gmail.com')
+
+-- DISTINCT: Se encarga de mostrar los registros sin duplicidad
+SELECT DISTINCT Nombre, Apellido FROM Usuarios
+
+-- Genera una tabla nuevo con los registros no duplicados
+SELECT DISTINCT * INTO USUARIOS_FINAL FROM Usuarios
+
+Security ->clic derecho -> new user -> (..) -> [sa]
+
