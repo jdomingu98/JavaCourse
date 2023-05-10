@@ -1,0 +1,5 @@
+ssh-keygen -t rsa -b 4096 -C "jadominguezarcas@gmail.com"
+
+Enter a todo y si si pide overwrite
+
+The public key has been saved in "ruta"

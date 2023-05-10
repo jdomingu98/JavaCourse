@@ -74,6 +74,7 @@ public class Empleado extends Persona implements iCalculos
 		a = 1;
 		b = 1;
 		int multiplicar = a*b;
+		System.out.println(multiplicar);
 	}
 
 	@Override
@@ -84,5 +85,6 @@ public class Empleado extends Persona implements iCalculos
 		a = 2;
 		b = 2;
 		int dividir = a/b;
+		System.out.println(dividir);
 	}
 }

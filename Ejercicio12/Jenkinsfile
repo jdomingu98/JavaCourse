@@ -1,0 +1,25 @@
+pipeline{
+	agent any
+	stages{
+		stage("Ciudad 1"){
+			steps{
+				println "Barcelona: 80000.0"
+			}
+		stage("Ciudad 2"){
+			steps{
+				println "Barcelona: 80000.0"
+			}
+		stage("Ciudad 3"){
+			steps{
+				println "Madrid: 800000.0"
+			}
+		stage("Ciudad 4"){
+			steps{
+				println "Malaga: 40000.0"
+			}
+		stage("Ciudad 5"){
+			steps{
+				println "Sevilla: 64000.0"
+			}
+	}
+}
