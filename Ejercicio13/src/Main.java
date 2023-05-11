@@ -41,10 +41,11 @@ public class Main {
 					sb.append(sc.nextLine());
 				sc.close();
 				JSONObject data = new JSONObject(sb.toString());
+				JSONObject speciesInfo = new JSONObject(data.get("species").toString());
 				JSONArray typesInfo = new JSONArray(data.get("types").toString());
 				JSONObject typeInfo = typesInfo.getJSONObject(0);
 				JSONObject info = (JSONObject) typeInfo.get("type");
-				String texto = "Pokémon name: " + data.get("name") + "\n"
+				String texto = "Pokémon name: " + speciesInfo.get("name") + "\n"
 								+ "Type: " + info.get("name") + "\n"
 								+ "Weight: " + data.get("weight") + " kg\n";
 				String ruta = "..\\Ejercicio13\\src\\salida.txt";
