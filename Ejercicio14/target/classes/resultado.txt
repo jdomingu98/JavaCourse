@@ -1,0 +1,13 @@
+ARTISTAS:
+	Artista: a
+		Genero: a
+		Numero de reproducciones: 2
+		Pais donde es mas escuchado: a
+		Recaudación monetaria: 0.04€
+		Proyección anual: 0.48€
+	Artista: aa
+		Genero: aa
+		Numero de reproducciones: 22
+		Pais donde es mas escuchado: a
+		Recaudación monetaria: 0.44€
+		Proyección anual: 5.28€
