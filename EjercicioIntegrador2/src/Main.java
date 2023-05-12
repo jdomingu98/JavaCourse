@@ -66,10 +66,6 @@ public class Main {
 					}
 					recetas.add(new Receta(nombreReceta, tipoComida, ingredientesReceta));
 					ingredientesReceta = new ArrayList<Ingrediente>();
-					//	Entregar trabajo de fin de grado
-					//	Caso práctico operaciones TC
-					//	Curso Angular Formacion on the job
-					//	Estudiar examen java GT3
 				}
 				else if (ingredientes)
 				{

@@ -1,0 +1,35 @@
+pipeline
+{
+	agent any
+	stages
+	{
+		stage("Ejercicio")
+		{
+			steps
+			{
+				script
+				{
+					for(Receta r : recetas)
+					{
+						println "Nombre: " + r.nombre
+						println "Tipo Comida: " + r.tipoComida
+						for (Ingrediente ir: r.ingredientes)
+						{
+							println "	Nombre Ingrediente: " + ir.nombre
+							println "	Cantidad Unidades: " + ir.numUnidades
+							println "	Gramos: " + ir.gramos
+						}
+						println " "
+					}
+					
+				}
+			}
+		}
+	}
+}
+
+
+IU: Entregar TFG, Caso práctico operaciones TC
+INU: Curso Angular Formacion on the job
+NIU: 
+NINU: Estudiar examen java GT3
