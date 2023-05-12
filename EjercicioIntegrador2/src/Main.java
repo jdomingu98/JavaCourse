@@ -70,7 +70,7 @@ public class Main {
 				else if (ingredientes)
 				{
 					if (div.length == 3 && (div[2].contains("g)") || div[2].contains("cc)")))
-						ingredientesReceta.add(new Ingrediente(div[0], div[1], div[2].substring(0, div[2].length() - 1)));
+						ingredientesReceta.add(new Ingrediente(div[0], div[1], div[2].substring(1, div[2].length() - 1)));
 					else if (div.length == 1)
 						ingredientesReceta.add(new Ingrediente(div[0], "NODATA", "NODATA"));
 					else if (div.length == 2 && div[1].contains("g"))
@@ -81,6 +81,23 @@ public class Main {
 			}
 			recetas.add(new Receta(nombreReceta, tipoComida, ingredientesReceta));
 			br.close();
+			for(Receta r : recetas)
+			{
+				System.out.println("Nombre: " + r.nombre);
+				System.out.println("Tipo Comida: " + r.tipoComida);
+				System.out.println("Ingredientes:");
+				for (Ingrediente ir: r.ingredientes)
+				{
+					System.out.println("	Nombre Ingrediente: " + ir.nombre);
+					if (!ir.cantidadUnidades.equalsIgnoreCase("NODATA"))
+						System.out.println("	Cantidad Unidades: " + ir.cantidadUnidades);
+					if (!ir.gramos.equalsIgnoreCase("NODATA"))
+					System.out.println("	Gramos: " + ir.gramos);
+				}
+				System.out.println("Tiempo Coccion: " + r.calcularTiempoCoccion(r.ingredientes));
+				System.out.println("Calorias: " + r.calcularCalorias(r.ingredientes));
+				System.out.println("");
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
