@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Built-By: jadomingueza
 Build-Jdk: 17.0.6
 Created-By: Maven Integration for Eclipse
 
+=======
+Manifest-Version: 1.0
+Built-By: jadomingueza
+Build-Jdk: 17.0.6
+Created-By: Maven Integration for Eclipse
+
+>>>>>>> 772c8971d3b3114c4b299ff7941e83895fe49b45

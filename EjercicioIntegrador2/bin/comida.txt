@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Nombre de la receta:%%Paella
 Ingredientes:
 Aceite%%3 cdas.%%(45cc)
@@ -24,4 +25,32 @@ Huevos medianos%%3
 Patatas%%300g
 Aceite de oliva virgen extra
 Cebolla pequeña (opcional)%%0.5 unidades
+=======
+Nombre de la receta:%%Paella
+Ingredientes:
+Aceite%%3 cdas.%%(45cc)
+Cebolla%%2 unidades%%(240g)
+Ajo%%2 diente%%(10g)
+Pimiento verde%%0.5 unidades%%(45g)
+Pimiento rojo%%0.5 unidades%%(45g)
+Calamares%%300g
+Vino blanco%%0.5 tazas%%(125cc)
+Tomate%%2 unidades
+Arroz grano medio%%4 tacitas%%(280g)
+Azafrán Molido ALICANTE%%1 cápsula
+Agua%%10 tacitas
+Mejillones%%200g
+Almejas%%200g
+Camarones%%150g
+Vieiras%%150g
+Berberechos%%150g
+Langostinos%%8 unidades%%(80g)
+**
+Nombre de la receta:%%Tortilla de patatas
+Ingredientes:
+Huevos medianos%%3
+Patatas%%300g
+Aceite de oliva virgen extra
+Cebolla pequeña (opcional)%%0.5 unidades
+>>>>>>> 772c8971d3b3114c4b299ff7941e83895fe49b45
 Sal (al gusto)

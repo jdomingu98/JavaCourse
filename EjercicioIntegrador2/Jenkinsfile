@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pipeline
 {
 	agent any
@@ -29,4 +30,37 @@ pipeline
 			}
 		}
 	}
+=======
+pipeline
+{
+	agent any
+	stages
+	{
+		stage("Ejercicio")
+		{
+			steps
+			{
+				script
+				{
+					for(Receta r : recetas)
+					{
+						println "Nombre: " + r.nombre
+						println "Tipo Comida: " + r.tipoComida
+						println "Ingredientes:"
+						for (Ingrediente ir: r.ingredientes)
+						{
+							println "	Nombre Ingrediente: " + ir.nombre
+							println "	Cantidad Unidades: " + ir.numUnidades
+							println "	Gramos: " + ir.gramos
+						}
+						println "Tiempo Coccion: " + r.calcularTiempoCoccion(r.ingredientes)
+						println "Calorias: " + r.calcularCalorias(r.ingredientes)
+						println ""
+					}
+					
+				}
+			}
+		}
+	}
+>>>>>>> 772c8971d3b3114c4b299ff7941e83895fe49b45
 }
