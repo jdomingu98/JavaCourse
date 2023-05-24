@@ -1,4 +1,3 @@
-
 public class Poblacion implements iPoblacion{
 
 	public String ciudad;

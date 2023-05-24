@@ -1,0 +1,33 @@
+Nombre libro: El teorema de Fermat
+Autor: Simon Singh
+Fecha de Solicitud: 01/05/2023
+Fecha de Entrega Estipulada: 10/05/2023
+Estado: PRESTADO
+DNI: 12345678
+Días de atraso: 14
+Estado del préstamo: VENCIDO
+Dinero Adeudado: 14€
+Moroso: SI
+==========================================
+Nombre libro: Correspondencia
+Autor: Sigmon Freud
+Fecha de Solicitud: 10/05/2023
+Fecha de Entrega Estipulada: 20/05/2023
+Estado: Prestado
+DNI: 23545789
+Días de atraso: 4
+Estado del préstamo: VENCIDO
+Dinero Adeudado: 4€
+Moroso: SI
+==========================================
+Nombre libro: Letras de amor
+Autor: Gustavo Vargas
+Fecha de Solicitud: 18/05/2023
+Fecha de Entrega Estipulada: 28/05/2023
+Estado: Prestado
+DNI: 3557789
+Días de atraso: 0
+Estado del préstamo: EN REGLA
+Dinero Adeudado: 0€
+Moroso: NO
+==========================================

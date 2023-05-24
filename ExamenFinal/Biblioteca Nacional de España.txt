@@ -1,0 +1,36 @@
+Nombre
+El teorema de Fermat
+Autor
+Simon Singh
+Fecha de Solicitud
+01/05/2023
+Fecha de Entrega Estipulada
+10/05/2023
+Estado:
+PRESTADO
+DNI
+12345678
+Nombre
+Correspondencia
+Autor
+Sigmon Freud
+Fecha de Solicitud
+10/05/2023
+Fecha de Entrega estipulada
+20/05/2023
+ESTADO:
+Prestado
+DNI
+23545789
+Nombre
+Letras de amor
+Autor
+Gustavo Vargas
+Fecha de Solicitud
+18/05/2023
+Fecha de Entrega estipulada
+28/05/2023
+ESTADO:
+Prestado
+DNI
+3557789

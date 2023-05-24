@@ -9,11 +9,10 @@ import org.json.JSONObject;
 public class ClaseAPI {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		try {
 			URL url = new URL("https://api.open-meteo.com/v1/forecast?latitude=41.39&longitude=2.16&hourly=temperature_2m&forecast_days=1&start_date=2023-04-27&end_date=2023-04-28");
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
-			con.connect(); // Establece la conxion
+			con.connect(); // Establece la conexion
 			int tiempoDeRespuesta = con.getResponseCode();
 			if (tiempoDeRespuesta != 200)
 				throw new RuntimeException("HttpResponseCode" + tiempoDeRespuesta);
@@ -36,7 +35,6 @@ public class ClaseAPI {
 				System.out.println(data);
 			}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

@@ -1,0 +1,72 @@
+<!--
+EJERCICIO 18:
+	En base a lo aprendido con los tags de HTML, diseñar una pagina web que tenga
+	solo una landing page donde nos cuentes información sobre tu lugar preferido
+	en el mundo.
+	Información tal como:
+		- Nombre del lugar
+		- Cantidad de habitantes
+		- Clima
+		- Lugares que deberíamos conocer
+		- Imagenes ilustrativas del lugar y de sus lugares anidados. 
+	ENTREGABLES:
+		- Captura del sitio web. 
+		- Proyecto.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi lugar del mundo favorito</title>
+<style>
+a {
+	text-decoration: none
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-color: #E0E0E0;
+	text-align: center;
+	align-items: center;
+}
+
+
+h1 {
+	font-size: 48px;
+}
+
+p {
+	font-family: "Roboto";
+	font-size: 14px;
+}
+
+#playa{
+	width: 50%;
+	height: 50%;
+}
+
+</style>
+</head>
+<body>
+<h1>Mi lugar favorito: Arroyo de la Miel</h1>
+<p>
+	<b>Arroyo de la Miel</b> (en Málaga) es el lugar donde vivo
+	y es mi lugar favorito porque es un lugar muy tranquilo y relajante.
+</p>
+<img alt="arroyo-de-la-miel" src="https://fotos.hoteles.net/articulos/arroyo-de-la-miel-costa-del-sol-malaga-2444-3.jpg">
+<p> Según Google, el número de habitantes actual asciende a <b>61641</b> y, al ser parte de Málaga,
+	su clima es soleado mayoritariamente.</p>
+<img id="playa" alt="playa-arroyo-de-la-miel" src="https://media-cdn.tripadvisor.com/media/photo-o/07/08/e3/f9/playa-arroyo-de-la-miel.jpg"/>
+<p>Al ser una zona mas bien residencial no hay mucho que visitar, pero como es
+	una ciudad costera, un lugar a visitar es la <b>playa</b>, un sitio de obligada visita para
+	cualquier turista.
+	Otros destinos de obligada visita son el <b>Parque la Paloma</b> y el <b>Castillo de Bil-Bil</b>,
+	todo cerca de la playa también.
+</p>
+<img alt="parque-la-paloma" src="https://th.bing.com/th/id/OIP.uPpRN47BZpEGYxW2hkJYMQHaFj?pid=ImgDet&rs=1"/>
+<img alt="castillo-de-bil-bil" src="https://media-cdn.tripadvisor.com/media/photo-s/16/e2/f8/fa/a-voir.jpg"/>
+
+<p>Para más información visita <a href="https://es.wikipedia.org/wiki/Arroyo_de_la_Miel">Wikipedia</a></p>
+</body>
+</html>

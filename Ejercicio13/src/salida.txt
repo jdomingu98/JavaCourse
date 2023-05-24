@@ -1,0 +1,3 @@
+Pokémon name: magmar
+Type: fire
+Weight: 445 kg

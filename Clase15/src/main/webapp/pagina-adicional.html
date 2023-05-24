@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mi pagina adicional.</title>
+<style>
+body
+{
+	background-color: #ECECEC;
+}
+.container 
+{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.button
+{
+	display: inline-bock;
+	padding: 10px 20px;
+	background-color: #1F4E5D;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.alert
+{
+padding: 10px;
+background-color: #FFCC00;
+color: #333333;
+font-weight: bold;
+border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>Bienvenido a mi pagina extra</h1>
+<p>Aca voy a poner mas contenido.</p>
+<ul>
+	<li><a href= "#" onclick= "showAlert()">Mostrar la alerta</a></li>
+	<li><a href = "#" onclick= toggleVisibility()>Mostrar/Ocultar contenido</a></li>
+</ul>
+
+<button class ="button">Boton de ejemplo</button>
+<div id="content" style="display: none;">
+	<p>Este contenido se va a mostrar y ocultar al hacer click	</p>
+</div>
+</div>
+
+<script>
+function mostrarAlerta()
+{
+	alert("Esta es una alerta!")
+}
+
+function toggleVisibility()
+{
+	var content = document.getElementById("content")
+	if (content.style.display == "none")
+		{
+			content.style.display = "block";	
+		}
+	else
+		{
+			content.style.display = "none";
+		}	
+}
+</script>
+</body>
+</html>
